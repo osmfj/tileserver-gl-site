@@ -1,0 +1,26 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "fonts",
+      "sprites": "sprites",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false
+  },
+  "styles": {
+    "osm-bright": {
+      "style": "osm-bright.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    }
+  }
+}
