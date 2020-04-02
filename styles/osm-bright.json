@@ -29,7 +29,7 @@
     }
   },
   "sprite": "https://tile2.openstreetmap.jp/sprite",
-  "glyphs": "https://smellman.github.io/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://tile2.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
