@@ -28,7 +28,7 @@
       "url": "https://vector.openstreetmap.jp/"
     }
   },
-  "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
+  "sprite": "https://tile2.openstreetmap.jp/sprite",
   "glyphs": "https://smellman.github.io/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
