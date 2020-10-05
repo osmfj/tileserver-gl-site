@@ -25,11 +25,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://vector.openstreetmap.jp/"
+      "url": "mbtiles://japan.mbtiles"
     }
   },
-  "sprite": "https://tile2.openstreetmap.jp/sprite",
-  "glyphs": "https://tile2.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
+  "sprite": "{style}",
+  "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
