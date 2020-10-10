@@ -1,19 +1,90 @@
-version: '2'
+version: '3'
 services:
   varnish:
-    image: eeacms/varnish
+    build: .
     ports:
-    - "6081:6081"
-    depends_on:
-    - raster-tileserver
+    - "8000:80"
     environment:
-      BACKENDS: "raster-tileserver"
-      BACKENDS_PORT: "80"
-      BACKENDS_PROBE_INTERVAL: "10s"
-      BACKENDS_PROBE_TIMEOUT: "2s"
-      DNS_ENABLED: "true"
+      VARNISH_SIZE: 8g
+    tmpfs:
+      - /var/lib/varnish:exec
     restart: always
-  raster-tileserver:
+  tile1:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile2:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile3:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile4:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile5:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile6:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile7:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile8:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile9:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile10:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile11:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile12:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile13:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile14:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile15:
+    image: maptiler/tileserver-gl
+    volumes:
+    - .:/data
+    restart: always
+  tile16:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
