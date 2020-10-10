@@ -5,7 +5,7 @@
       "fonts": "fonts",
       "sprites": "sprites",
       "styles": "styles",
-      "mbtiles": ""
+      "mbtiles": "data"
     },
     "formatQuality": {
       "jpeg": 80,

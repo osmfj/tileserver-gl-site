@@ -3,7 +3,7 @@ services:
   varnish:
     image: eeacms/varnish
     ports:
-    - "6082:6081"
+    - "6081:6081"
     depends_on:
     - raster-tileserver
     environment:
