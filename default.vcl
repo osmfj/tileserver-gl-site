@@ -70,42 +70,6 @@ backend tile10 {
   .probe = basic;
 }
 
-backend tile11 {
-  .host = "tile11";
-  .port = "80";
-  .probe = basic;
-}
-
-backend tile12 {
-  .host = "tile12";
-  .port = "80";
-  .probe = basic;
-}
-
-backend tile13 {
-  .host = "tile13";
-  .port = "80";
-  .probe = basic;
-}
-
-backend tile14 {
-  .host = "tile14";
-  .port = "80";
-  .probe = basic;
-}
-
-backend tile15 {
-  .host = "tile15";
-  .port = "80";
-  .probe = basic;
-}
-
-backend tile16 {
-  .host = "tile16";
-  .port = "80";
-  .probe = basic;
-}
-
 sub vcl_init {
   new bar = directors.round_robin();
   bar.add_backend(tile1);
@@ -118,12 +82,6 @@ sub vcl_init {
   bar.add_backend(tile8);
   bar.add_backend(tile9);
   bar.add_backend(tile10);
-  bar.add_backend(tile11);
-  bar.add_backend(tile12);
-  bar.add_backend(tile13);
-  bar.add_backend(tile14);
-  bar.add_backend(tile15);
-  bar.add_backend(tile16);
 }
 
 sub vcl_recv {
