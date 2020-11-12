@@ -13,7 +13,7 @@
     },
     "maxSize": 2048,
     "pbfAlias": "pbf",
-    "serveAllFonts": false
+    "serveAllFonts": true
   },
   "styles": {
     "osm-bright": {
