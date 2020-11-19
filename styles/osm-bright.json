@@ -26,6 +26,14 @@
     "openmaptiles": {
       "type": "vector",
       "url": "mbtiles://japan.mbtiles"
+    },
+    "takeshima": {
+      "type": "vector",
+      "url": "mbtiles://takeshima.mbtiles"
+    },
+    "hoppo": {
+      "type": "vector",
+      "url": "mbtiles://hoppo.mbtiles"
     }
   },
   "sprite": "{style}",
