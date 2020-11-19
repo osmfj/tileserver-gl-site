@@ -2290,6 +2290,47 @@
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
+    },
+    {
+      "id": "island-hoppo",
+      "type": "fill",
+      "metadata": {"mapbox:group": "1444849388993.3071"},
+      "source": "hoppo",
+      "source-layer": "island",
+      "minzoom": 0,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "#fff", "fill-opacity": 1}
+    },
+    {
+      "id": "island-takeshima-name",
+      "type": "symbol",
+      "source": "takeshima",
+      "source-layer": "island",
+      "layout": {
+        "text-field": "{name}",
+        "text-size": {"stops": [[10, 14], [15, 24]]}
+      },
+      "paint": {
+        "text-color": "#333",
+        "text-halo-color": "rgba(255, 255, 255, 0.8)",
+        "text-halo-width": 1.2
+      }
+    },
+    {
+      "id": "island-takeshima-poi",
+      "type": "symbol",
+      "source": "takeshima",
+      "source-layer": "island_poi",
+      "layout": {
+        "text-field": "{name}",
+        "text-font": ["migu2m-regular"],
+        "text-size": {"stops": [[10, 14], [15, 24]]}
+      },
+      "paint": {
+        "text-color": "#333",
+        "text-halo-color": "rgba(255, 255, 255, 0.8)",
+        "text-halo-width": 1.2
+      }
     }
   ],
   "id": "bright"
