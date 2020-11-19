@@ -2302,6 +2302,31 @@
       "paint": {"fill-color": "#fff", "fill-opacity": 1}
     },
     {
+      "id": "island-hoppo-name",
+      "type": "symbol",
+      "source": "hoppo",
+      "source-layer": "island",
+      "layout": {
+        "text-field": "{name}",
+        "text-size": {"stops": [[10, 14], [15, 24]]}
+      },
+      "paint": {
+        "text-color": "#333",
+        "text-halo-color": "rgba(255, 255, 255, 0.8)",
+        "text-halo-width": 1.2
+      }
+    },
+    {
+      "id": "island-takeshima",
+      "type": "fill",
+      "metadata": {"mapbox:group": "1444849388993.3071"},
+      "source": "takeshima",
+      "source-layer": "island",
+      "minzoom": 0,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "#fff", "fill-opacity": 1}
+    },
+    {
       "id": "island-takeshima-name",
       "type": "symbol",
       "source": "takeshima",
