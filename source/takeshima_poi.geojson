@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "takeshima_poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"bbox": [ 131.86357022404, 37.244342027378, 131.869797686967, 37.248767157622 ],                                                   
+"features": [
+{ "type": "Feature", "properties": { "name": "竹島" }, "bbox": [ 131.869797686966507, 37.244342027378039, 131.869797686966507, 37.244342027378039 ], "geometry": { "type": "Point", "coordinates": [ 131.869797686966507, 37.244342027378039 ] } },
+{ "type": "Feature", "properties": { "name": "隠岐の島町" }, "bbox": [ 131.86357022403962, 37.248767157621984, 131.86357022403962, 37.248767157621984 ], "geometry": { "type": "Point", "coordinates": [ 131.86357022403962, 37.248767157621984 ] } }
+]
+}
