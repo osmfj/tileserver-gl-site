@@ -21,6 +21,12 @@
       "tilejson": {
         "type": "overlay"
       }
+    },
+    "osm-bright-ja": {
+      "style": "osm-bright-ja.json",
+      "tilejson": {
+        "type": "overlay"
+      }
     }
   }
 }
