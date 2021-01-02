@@ -27,6 +27,12 @@
       "tilejson": {
         "type": "overlay"
       }
+    },
+    "osm-bright-asia": {
+      "style": "osm-bright-asia.json",
+      "tilejson": {
+        "type": "overlay"
+      }
     }
   }
 }

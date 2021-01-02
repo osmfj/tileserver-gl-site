@@ -14,48 +14,59 @@ services:
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile2:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile3:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile4:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile5:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile6:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile7:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile8:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile9:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
   tile10:
     image: maptiler/tileserver-gl
     volumes:
     - .:/data
     restart: always
+    command: -p 8080 --verbose -c /data/config.json
+
