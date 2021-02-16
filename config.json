@@ -39,6 +39,12 @@
       "tilejson": {
         "type": "overlay"
       }
+    },
+    "maptiler-toner-ja": {
+      "style": "maptiler-toner-ja.json",
+      "tilejson": {
+        "type": "overlay"
+      }
     }
   }
 }
