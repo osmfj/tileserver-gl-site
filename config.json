@@ -33,6 +33,12 @@
       "tilejson": {
         "type": "overlay"
       }
+    },
+    "maptiler-basic-ja": {
+      "style": "maptiler-basic-ja.json",
+      "tilejson": {
+        "type": "overlay"
+      }
     }
   }
 }
