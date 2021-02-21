@@ -28,6 +28,12 @@
         "type": "overlay"
       }
     },
+    "osm-bright-en": {
+      "style": "osm-bright-en.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
     "osm-bright-asia": {
       "style": "osm-bright-asia.json",
       "tilejson": {
@@ -40,8 +46,20 @@
         "type": "overlay"
       }
     },
+    "maptiler-basic-en": {
+      "style": "maptiler-basic-en.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
     "maptiler-toner-ja": {
       "style": "maptiler-toner-ja.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
+    "maptiler-toner-en": {
+      "style": "maptiler-toner-en.json",
       "tilejson": {
         "type": "overlay"
       }
