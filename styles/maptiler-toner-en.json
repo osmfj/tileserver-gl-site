@@ -999,7 +999,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": 350,
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
@@ -1032,7 +1032,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": 200,
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-max-width": 9,
         "text-rotation-alignment": "map",
@@ -1077,7 +1077,7 @@
       "layout": {
         "symbol-placement": "point",
         "symbol-spacing": 250,
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-letter-spacing": 0.1,
         "text-max-width": 6,
@@ -1111,7 +1111,7 @@
       "layout": {
         "symbol-placement": "point",
         "symbol-spacing": 350,
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
@@ -1139,7 +1139,7 @@
       "id": "road_label_primary",
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": {
           "stops": [
             [
@@ -1203,7 +1203,7 @@
       "id": "road_label_secondary",
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-rotation-alignment": "map",
         "text-size": {
@@ -1238,7 +1238,7 @@
       "id": "place_label_park",
       "layout": {
         "symbol-placement": "point",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-line-height": 1,
         "text-pitch-alignment": "map",
@@ -1274,7 +1274,7 @@
       "id": "place_label_village",
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-max-width": 10,
         "text-size": {
@@ -1319,7 +1319,7 @@
       "id": "place_label_city",
       "layout": {
         "icon-anchor": "center",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": {
           "stops": [
             [
@@ -1392,7 +1392,7 @@
       "id": "place_label_town",
       "layout": {
         "icon-anchor": "center",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-max-width": 10,
         "text-size": {
@@ -1436,7 +1436,7 @@
       ],
       "id": "place_state-label",
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-max-width": 10,
         "text-size": 13,
@@ -1463,7 +1463,7 @@
       "id": "place_label_country",
       "layout": {
         "text-allow-overlap": false,
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-ignore-placement": false,
         "text-max-width": 10,
@@ -1506,7 +1506,7 @@
       ],
       "id": "place_label_continent",
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu1c-regular"],
         "text-line-height": 1.1,
         "text-max-width": 10,
@@ -1551,7 +1551,7 @@
       "source": "hoppo",
       "source-layer": "island",
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {"stops": [[10, 14], [15, 24]]}
       },
       "paint": {
@@ -1576,7 +1576,7 @@
       "source": "takeshima",
       "source-layer": "island",
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {"stops": [[10, 14], [15, 24]]}
       },
       "paint": {
@@ -1591,7 +1591,7 @@
       "source": "takeshima",
       "source-layer": "island_poi",
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["migu2m-regular"],
         "text-size": {"stops": [[10, 14], [15, 24]]}
       },
