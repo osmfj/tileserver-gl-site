@@ -34,12 +34,6 @@
         "type": "overlay"
       }
     },
-    "osm-bright-asia": {
-      "style": "osm-bright-asia.json",
-      "tilejson": {
-        "type": "overlay"
-      }
-    },
     "maptiler-basic-ja": {
       "style": "maptiler-basic-ja.json",
       "tilejson": {

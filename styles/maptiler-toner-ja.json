@@ -18,7 +18,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "mbtiles://japan.mbtiles"
+      "url": "mbtiles://planet.mbtiles"
     },
     "takeshima": {
       "type": "vector",
