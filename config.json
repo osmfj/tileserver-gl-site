@@ -57,6 +57,12 @@
       "tilejson": {
         "type": "overlay"
       }
+    },
+    "openmaptiles": {
+      "style": "openmaptiles.json",
+      "tilejson": {
+        "type": "overlay"
+      }
     }
   }
 }
