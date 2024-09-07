@@ -7,7 +7,7 @@ services:
     environment:
       VARNISH_SIZE: 8g
     tmpfs:
-      - /var/lib/varnish:exec
+      - /var/lib/varnish/varnishd:exec
     restart: always
   tile1:
     image: maptiler/tileserver-gl
