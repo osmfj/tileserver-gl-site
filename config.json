@@ -7,9 +7,13 @@
       "styles": "styles",
       "mbtiles": "data"
     },
-    "formatQuality": {
-      "jpeg": 80,
-      "webp": 90
+    "formatOptions": {
+      "jpeg": {
+        "quality": 80
+      },
+      "webp": {
+        "quality": 90
+      }
     },
     "maxSize": 2048,
     "pbfAlias": "pbf",
