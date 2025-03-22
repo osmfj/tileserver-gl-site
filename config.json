@@ -19,6 +19,17 @@
     "pbfAlias": "pbf",
     "serveAllFonts": true
   },
+  "data": {
+    "planet": {
+      "mbtiles": "planet.mbtiles"
+    },
+    "takeshima": {
+      "mbtiles": "takeshima.mbtiles"
+    },
+    "hoppo": {
+      "mbtiles": "hoppo.mbtiles"
+    }
+  },
   "styles": {
     "osm-bright": {
       "style": "osm-bright.json",
